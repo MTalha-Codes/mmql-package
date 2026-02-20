@@ -106,8 +106,8 @@ make -j$(nproc)
 ## Supported Queries
 
 MmQL has mostly the same set of queries overloaded for both real and complex numbers of arbitrary precision. So it all differs by the calling convention.
-Like for real numbers, you'd do `query 3,4` or `query 43+10` or whatever, but on the other hand,
-for complex numbers you'd do `query 3+4i,5-6i` or `query 5e+10+6e-100i`.  
+Like for real numbers, you'd do `query 3,4` or `query 43.45e+8739` or whatever, but on the other hand,
+for complex numbers you'd do `query 3+4i,5-6i` or `query 5e+10+6e-100i`.
 
 To know about queries, Read [Queries for Real Numbers](DetailedDocumentation/QUERIES_REAL_NUMBERS.md) and [Queries for Complex Numbers](DetailedDocumentation/QUERIES_COMPLEX_NUMBERS.md).
 
